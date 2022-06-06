@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  display: flex;
+  
+ 
+}
+
+.navbar button{
+  margin-left: 50px;
+}
+
+.navbar span{
+  margin-left: 1200px;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  width: fit-content;
+  margin: auto;
+  gap: 10px;
+}
+.product{
+  border: 1px solid black;
+}
